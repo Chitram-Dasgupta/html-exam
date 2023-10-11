@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 4rem;
+  margin-top: 6rem;
   position: relative;
 }
 
@@ -82,6 +82,7 @@ body {
 }
 
 .sale {
+  margin-top: 3rem;
   background-color: var(--purple);
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
