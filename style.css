@@ -35,6 +35,20 @@ body {
   border-radius: 20px;
 }
 
+.carousel-control {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-color: white;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.carousel-control.active {
+  background-color: var(--purple);
+  border-color: var(--purple);
+}
+
 .main-second-text {
   font-weight: 500;
 }
@@ -114,21 +128,9 @@ body {
   border-radius: 20px;
 }
 
-/* .logo-button {
-  background-color: #fff;
-  color: var(--dark-blue);
-} */
-
-
-
-
-
-
-
-
-
-
-
+.logo-button {
+  display: block;
+}
 
 .footer {
   background-color: var(--footer-gray);
@@ -213,5 +215,5 @@ body {
 .copyright {
   margin-top: 1.56rem;
   font-size: 0.9rem;
-  color: #fff
+  color: #fff;
 }
