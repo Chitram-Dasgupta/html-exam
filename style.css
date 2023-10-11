@@ -53,6 +53,24 @@ body {
   font-weight: 500;
 }
 
+@media (max-width: 991px) {
+  .center-md {
+    text-align: center;
+  }
+
+  .main-button {
+    display: block;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+    margin-inline: auto;
+  }
+}
+
 .launch {
   display: flex;
   justify-content: space-between;
